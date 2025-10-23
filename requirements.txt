@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+flask_jwt_extended
+flask_cors
+psutil
+boto3
+streamlit
+requests
