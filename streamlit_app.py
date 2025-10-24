@@ -5,7 +5,7 @@ import pandas as pd
 import time
 
 # --- CONFIG ---
-API_BASE = "http://127.0.0.1:5000"
+API_BASE = "https://it-support-api.onrender.com"
 st.set_page_config(page_title="IT Support Dashboard", layout="wide")
 
 # --- HEADER ---
