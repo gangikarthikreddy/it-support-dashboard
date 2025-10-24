@@ -74,3 +74,12 @@ def update_ticket(ticket_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+import os
+
+# (your Flask setup code above...)
+
+if __name__ == "__main__":
+    CORS(app)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
