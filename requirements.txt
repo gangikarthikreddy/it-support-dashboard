@@ -6,3 +6,4 @@ psutil
 boto3
 streamlit
 requests
+gunicorn
